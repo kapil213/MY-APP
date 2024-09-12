@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather&family=Poppins:wght@300&display=swap');
+
+.testi{
+  font-family: "Jost", sans-serif;
+}
+.headings{
+  font-weight: 500;
+}
+.emp1{
+    margin-left: 4rem;
+    margin-right: 0.6rem;
+    border-radius: 7px;
+    background-image: url("https://img.freepik.com/free-photo/smiling-young-man-looking-pointing-camera-isolated-blue-background_141793-132609.jpg?t=st=1708948668~exp=1708952268~hmac=f8ee1aab491d0db95c997968ec4276270118775c3247c3a04666a8d10b99cf96&w=1060");
+    text-decoration: whitesmoke;
+  }
+  
+  .emp2{
+    margin-left: 0.6rem;
+    margin-right: 4rem;
+    border-radius: 7px;
+    background-image: url("https://img.freepik.com/free-photo/smiling-young-man-looking-pointing-camera-isolated-blue-background_141793-132609.jpg?t=st=1708948668~exp=1708952268~hmac=f8ee1aab491d0db95c997968ec4276270118775c3247c3a04666a8d10b99cf96&w=1060");
+  }
+  
+  
+  .reg-button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    height: 4rem;
+    width: 17rem;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 4px 2px;
+    border-radius: 7px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  
+  .reg-button:hover .text{
+    text-decoration-color: white;
+  }
+  .reg-button:hover {
+    text-decoration: underline;
+    background-color: white; 
+    
+    border: 2px solid rgb(181, 128, 128);
+    border-color:  Change border color to rose red
+  }
+  
+  .grey-line {
+    width: 100%;
+    height: 0.8px;
+    background-color: #ccc; /* Grey color */
+  }
+  .a-button {
+    border: 2px solid #343c86;
+    background-color: #343c86;
+    /* background-color: #24b4fb; */
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+   }
+   
+   .a-button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+   }
+   
+   .a-button:hover {
+    background-color: #093b6d;
+   }
+  
+  .card {
+    --bg: #f7f7f8;
+    --hover-bg: #FFE5F4;
+    --hover-text: #E50087;
+    min-width: fit-content;
+    text-align: center;
+    background: var(--bg);
+    padding: 1.2em;
+    padding-block: 1.8em;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 1em;
+  }
+  
+  .card div p {
+    font-size: 1.3rem;
+  }
+  
+
+  .test-section{
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-71066.jpg?t=st=1709297397~exp=1709300997~hmac=2897a22e80bafca6694d5b92f910a241e68f42b9676034359aef072d86e705c9&w=1380");
+    height: 38rem;
+    width: 100%;
+  }
+  #testimonials{
+    background-color: #ef8171;
+  }
+  
+  .testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .circular-div {
+    margin-top: 1rem;
+    /* margin-bottom: 1.4rem; */
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%; 
+    overflow: hidden;
+  }
+  
+  .circular-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+  .circular-divt {
+    width: 3.5rem;
+    height: 3.5rem; 
+    border-radius: 50%; 
+    overflow: hidden;
+  }
+  
+  .circular-divt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+
+  .buttonR {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 12rem;
+    height: 3rem;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    /* text-align: right; */
+    transition: all 0.6s ease;
+    background-color: #3654ff;
+    cursor: pointer;
+  }
+  
+  .buttonR:hover {
+    background-color: #526cff;
+  }
+  
+  .buttonR svg {
+    width: auto;
+    margin: -0.2em 0.8em 1em;
+    transition: all 0.6s ease;
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
+
+  .home-banner{
+    /* background-image: url("https://img.freepik.com/free-vector/tiny-graphic-designer-drawing-with-big-pen-computer-screen-creators-work-creative-woman-working-laptop-flat-vector-illustration-digital-design-concept-banner-landing-web-page_74855-25342.jpg?t=st=1724678479~exp=1724682079~hmac=da3c6e72d3a6dc468d105706b2c441edec6822e34dd40d733d0edfda841cdd39&w=740");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    /* opacity: 0.5; */
+  }
+  
+  .testi-img{
+    background-image:url("https://img.freepik.com/free-vector/microblogging-platform-user-social-media-communication-bloggers-tool-sharing-short-messages-microblogger-post-sharing-commenting-discussion_335657-2389.jpg?t=st=1725712238~exp=1725715838~hmac=978758ebb12c40787a96f02dd99d9eec5ce6860b4c60380e24d87e218807b99f&w=740") ;
+    background-size: cover;
+    background-position: center;
+  }

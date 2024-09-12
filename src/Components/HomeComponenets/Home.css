@@ -1,0 +1,85 @@
+/* Here is Styling of HomeBanner */
+
+.banner-img{
+    display: inline;
+}
+
+@media (max-width: 770px){
+
+    /* Here is Stylling of HomeBanner */
+    .home-banner{
+        width: 100% !important;
+        }
+
+    .banner-img{
+        display: none !important;
+    }
+
+    /* Here is Stylling of About Section */
+    .about-box{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .about-img-box {
+        width: 100% !important;
+    }
+    .about-cont-box{
+        width: 100%;
+        padding-top: 10px !important;
+    }
+
+    /* Here is Stylling of TopFeatures Sections */
+    .all-services{
+        padding: 10px 40px 10px 40px;
+        justify-content: space-evenly;
+    }
+    .digital-sevices-box{
+        margin-top: 80px;
+    }
+
+    /* Here is a Stylling of Testinomials  */
+    .testi-cont{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .testi-img{
+        display: none !important;
+    }
+    .testi-box{
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 450px){
+    .banner-img{
+        display: none !important;
+    }
+    .banner-text{
+        padding: 0px 0px !important;
+    }
+    .banner-text p{
+        padding: 0px 5px 0px 5px !important;
+    }
+
+
+     /* Here is Stylling of TopFeatures Sections */
+
+    .all-services{
+        padding: 10px 20px 10px 20px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .all-services div{
+        margin-top: 40px !important ;
+        padding-top: 0px !important;
+    }
+    .serices-head{
+        margin-left: 10px !important;
+    }
+
+
+
+}
